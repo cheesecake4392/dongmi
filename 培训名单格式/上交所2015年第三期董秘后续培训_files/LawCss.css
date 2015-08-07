@@ -1,0 +1,187 @@
+.Law_Head
+
+{
+
+    BACKGROUND-COLOR: #d5eaf9;
+
+    COLOR: #005a94;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 9pt
+
+}
+
+.Law_Title1
+
+{
+
+    BACKGROUND-COLOR: #5baee6;
+
+    COLOR: #ffffff;
+
+    FONT-FAMILY: 黑体;
+
+    FONT-SIZE: 14pt;
+
+    FONT-WEIGHT: bolder
+
+}
+
+.Law_Title2
+
+{
+
+    COLOR: #005a94;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 9pt
+
+}
+
+.Law_Tiao
+
+{
+
+    BACKGROUND-COLOR: #ffffff;
+
+    COLOR: #676767;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 9pt;
+
+    FONT-WEIGHT: bolder
+
+}
+
+.Law_BookMark
+
+{
+
+    BACKGROUND-COLOR: #ffffff;
+
+    COLOR: #2d7db7;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 9pt
+
+}
+
+.Law_BookMark2
+
+{
+
+	COLOR: #2d7db7;
+
+	CURSOR: auto;
+
+	FONT-FAMILY: 宋体;
+
+	FONT-SIZE: 9pt;
+
+
+
+}
+
+.Law_BookMark2:link
+
+{
+
+	COLOR: #2d7db7;
+
+	CURSOR: auto;
+
+	FONT-FAMILY: 宋体;
+
+	FONT-SIZE: 9pt;
+
+
+
+}
+
+.Law_BookMark2:visited
+
+{
+
+	COLOR: #2d7db7;
+
+	CURSOR: auto;
+
+	FONT-FAMILY: 宋体;
+
+	FONT-SIZE: 9pt;
+
+
+
+}
+
+.Law_Back
+
+{
+
+    COLOR: #2d7db7;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 9pt
+
+}
+
+.Law_Back:link
+
+{
+
+	COLOR: #2d7db7;
+
+	FONT-FAMILY: 宋体;
+
+	FONT-SIZE: 9pt;
+
+	text-decoration : none;
+
+}
+
+.Law_Back:visited
+
+{
+
+	COLOR: #2d7db7;
+
+	FONT-FAMILY: 宋体;
+
+	FONT-SIZE: 9pt;
+
+	text-decoration : none;
+
+}
+
+.Law_Content
+
+{
+
+    BACKGROUND-COLOR: #ffffff;
+
+    COLOR: #676767;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 9pt
+
+}
+
+.Law_Zhang
+
+{
+
+    COLOR: #516b8d;
+
+    FONT-FAMILY: 宋体;
+
+    FONT-SIZE: 12pt
+
+}
+.Section1 {line-height:180%;}
+

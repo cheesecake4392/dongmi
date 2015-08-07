@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/********************************************************* 页面框架区域样式 *********************************************************/ 
+* { margin: 0; padding: 0; }
+HTML,body,div,form,select,input,image,table,tr,td,span,p,ol,ul,dl,dt,dd,li,form,br { margin: 0; padding: 0; color: #333;}
+HTML,body {height:100%;}
+body {min-height:100%;margin:0 auto;font-size: 12px;color: #333;font-family: 宋体;padding:0;  background-color:#fff;}
+
+.clear { clear: both; width: 100%; height:0;}
+#wrapper {height:100%;font-size:12px;width:1004px;margin:0 auto;background-repeat:no-repeat;}
+body > #wrapper {height:auto; min-height:100%;}
+#main {padding-bottom:60px;width:1004px;}/* 必须使用和footer相同的高度,最小宽度ie6中加JS解决 */
+
+* html #main_page { height: 1%;}
+.footer_bj_tck { position: relative;margin: -60px auto 0; /* footer高度的负值 */
+	padding-top: 20px;height: 58px;/* footer高度*/	line-height:25px;
+	width:1004px;/*最小宽度ie6中加JS解决*/
+	clear:both;text-align:center;color:#fff;background:#D9EDFF; } /** 底部 **/ /*width: 1204px;最小宽度ie6中加JS解决*/ 
+
+/*说明: 需要注意的就是#main的padding值、footer的高度和负margin值，需要保持一致。下面是著名的万能float闭合Clearfix Hack*/
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.block_l1 { padding:0 0 0 15px;clear: both; margin:0 0 20px 0; } /** 区域1层 **/ 
+h1 {background:url(/images/bullet_1.gif) no-repeat left 2px;font-size:15px;color:#25548a;font-weight:bold;font-family:宋体, Arial;text-decoration:none;padding-left:15px;margin:10px 0 10px -15px;line-height:150%;clear:both;}/** 一级标题  **/
+
+.h1_left {background:url(/images/bullet_1.gif) no-repeat left center;font-size:15px;color:#25548a;font-weight:bold;font-family:宋体, Arial;text-decoration:none;text-indent:2px;margin:0 0 10px -15px;line-height:30px;float:left;}
+
+.h_line { background-image: url(/images/dot.gif); background-repeat: repeat-x; float: left; margin: 0 0 10px 0; height: 3px; width: 100%; } /** 横虚线 **/ 
+
+/******************* 表格样式   *******************/
+.tablestyle{clear:both;width:98%;line-height:18px;margin: 0 0 10px 0; color:#25548A;border:1px solid #337fb2; font-size:12px; background:#fff; border-collapse:collapse;}
+.tablestyle tr th{color:#fff; border-right:1px solid #46a3e1;border-bottom:1px solid #46a3e1; background:#337fb2; padding:3px;font-weight:normal;word-break: keep-all;white-space:nowrap;}
+.tablestyle tr th a {color:#fff;}
+.tablestyle tr td{ border:1px solid #337fb2; padding:3px;}/***  word-break: keep-all;white-space:nowrap;***/
+.tablestyle tr td a{font-size:12px;}
+
+
+/* 头尾与内页共用样式 */ 
+.bottom_font {font-size: 9pt;color: #005888;display:block;}
+.bottom_font a:link,.bottom_font a:visited {color:#005888;text-decoration: none;padding:0 5px;}
+.bottom_font a:hover {color: #005888;text-decoration: underline;}
+.bottom_font a:active {color:#005888;}
+.bottom_font span{font-size:14px;color:#005888; font-family:Arial, Helvetica, sans-serif;}
+
+
+#header {width:1004px;margin:0 auto;}
+.headbox_tck { width:100%; margin: 0; height: 70px; background: url(/images/top_head_bjtk.gif) repeat-x #D9EDFF;; } /** 弹出框头部背景 **/ 
+.headbox_tck p{float:right; width:250px; font-size:12px; color:#369; line-height:70px; text-align:right; margin-right:10px;}
+
+p{color: black; font-family: "宋体";  font-size: 10.5pt;line-height:150%;}
